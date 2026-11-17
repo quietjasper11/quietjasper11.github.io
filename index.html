@@ -1,0 +1,1038 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>曹长卿joker女博士-角色关系与二创解读</title>
+<meta name="description" content="曹长卿joker女博士是《雪中悍刀行》同人二创里的热门组合名。这里梳理三人身份设定、跨作品配对逻辑、经典桥段考据与读者争论焦点，附时间线、FAQ和读者评论，方便快速看懂这个组合到底在讲什么。">
+<meta name="keywords" content="曹长卿joker女博士">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231c2433'/%3E%3Cpath d='M18 44V22l14 12 14-12v22' fill='none' stroke='%23e8b04b' stroke-width='5' stroke-linejoin='round'/%3E%3Ccircle cx='32' cy='50' r='3' fill='%23c8503c'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#1c2433;
+  --ink-2:#3a4457;
+  --muted:#6b7488;
+  --line:#dfe3ec;
+  --line-strong:#c4cbda;
+  --bg:#f6f7fa;
+  --paper:#ffffff;
+  --gold:#b8862f;
+  --gold-soft:#f4ead6;
+  --red:#b23b2c;
+  --red-soft:#f7e6e2;
+  --blue:#2f5d7c;
+  --blue-soft:#e3eef5;
+  --green:#3f6b4f;
+  --green-soft:#e6f0e8;
+  --radius-s:6px;
+  --radius-m:10px;
+  --radius-l:16px;
+  --shadow-s:0 1px 2px rgba(28,36,51,.06);
+  --shadow-m:0 6px 18px rgba(28,36,51,.08);
+  --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:24px;--space-6:32px;--space-7:48px;--space-8:64px;
+  --font-sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",system-ui,sans-serif;
+  --fs-h1:clamp(26px,3.4vw,40px);
+  --fs-h2:clamp(21px,2.2vw,27px);
+  --fs-h3:17px;
+  --fs-body:15.5px;
+  --fs-small:13.5px;
+  --anchor-offset:104px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;font-family:var(--font-sans);background:var(--bg);color:var(--ink);
+  font-size:var(--fs-body);line-height:1.85;-webkit-text-size-adjust:100%;
+}
+h1,h2,h3,h4{line-height:1.35;margin:0;font-weight:700;letter-spacing:.01em;}
+p{margin:0 0 var(--space-3);}
+a{color:var(--blue);text-decoration:none;}
+a:hover{text-decoration:underline;}
+ul,ol{margin:0 0 var(--space-3);padding-left:1.3em;}
+li{margin-bottom:6px;}
+img{max-width:100%;display:block;}
+section{scroll-margin-top:var(--anchor-offset);}
+.wrap{width:min(1180px,100% - 32px);margin-inline:auto;}
+.skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:#fff;padding:10px 16px;z-index:200;}
+.skip:focus{left:8px;top:8px;}
+
+/* 公告条 */
+.announce{
+  background:linear-gradient(90deg,#1c2433,#2a3450);color:#e7ecf5;font-size:var(--fs-small);
+  display:flex;gap:12px;align-items:center;justify-content:center;
+  padding:7px 14px;flex-wrap:wrap;text-align:center;
+}
+.announce strong{color:#f0c469;font-weight:600;}
+.announce .dot{width:6px;height:6px;border-radius:50%;background:#f0c469;flex:none;}
+
+/* 页头 */
+.site-head{
+  background:rgba(255,255,255,.96);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);box-shadow:var(--shadow-s);
+}
+.head-inner{display:flex;align-items:center;gap:var(--space-4);padding:10px 0;flex-wrap:wrap;}
+.brand{display:flex;align-items:center;gap:10px;flex:none;}
+.brand-mark{width:38px;height:38px;flex:none;}
+.brand-text{font-weight:700;font-size:17px;letter-spacing:.02em;color:var(--ink);line-height:1.2;}
+.brand-text small{display:block;font-size:11.5px;font-weight:400;color:var(--muted);letter-spacing:.08em;}
+.nav-toggle{
+  display:none;margin-left:auto;border:1px solid var(--line-strong);background:#fff;
+  border-radius:var(--radius-s);padding:6px 10px;font-size:13px;color:var(--ink-2);cursor:pointer;
+}
+.nav-toggle:focus-visible{outline:2px solid var(--blue);outline-offset:2px;}
+.main-nav{display:flex;gap:2px;flex-wrap:wrap;align-items:center;margin-left:auto;}
+.main-nav a{
+  padding:6px 10px;border-radius:var(--radius-s);font-size:14px;color:var(--ink-2);white-space:nowrap;
+}
+.main-nav a:hover{background:var(--gold-soft);color:var(--ink);text-decoration:none;}
+.main-nav a:focus-visible{outline:2px solid var(--blue);outline-offset:1px;}
+.head-search{display:flex;align-items:center;gap:6px;flex:none;}
+.head-search input{
+  width:150px;padding:6px 9px;border:1px solid var(--line-strong);border-radius:var(--radius-s);
+  font-size:13px;font-family:inherit;background:#fbfcfd;color:var(--ink);
+}
+.head-search input:focus{outline:2px solid var(--blue);outline-offset:0;border-color:var(--blue);}
+.head-search button{
+  padding:6px 12px;border:1px solid var(--ink);background:var(--ink);color:#fff;border-radius:var(--radius-s);
+  font-size:13px;font-family:inherit;cursor:pointer;
+}
+.head-search button:focus-visible{outline:2px solid var(--gold);outline-offset:2px;}
+.search-feedback{flex-basis:100%;font-size:12.5px;color:var(--red);min-height:0;}
+.search-feedback:empty{display:none;}
+
+/* 吸顶 */
+.sticky-stack{position:sticky;top:0;z-index:100;}
+
+/* 首屏 */
+.hero{position:relative;overflow:hidden;background:linear-gradient(160deg,#151c29 0%,#223049 55%,#2d3f5c 100%);color:#eef2f8;}
+.hero-inner{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:var(--space-6);padding:var(--space-7) 0 var(--space-7);align-items:center;}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:.12em;color:#f0c469;border:1px solid rgba(240,196,105,.45);border-radius:999px;padding:3px 12px;margin-bottom:var(--space-4);}
+.hero h1{font-size:var(--fs-h1);letter-spacing:.01em;color:#fff;margin-bottom:var(--space-3);}
+.hero-lead{color:#c7d1e0;font-size:16px;line-height:1.95;max-width:56ch;}
+.hero-actions{display:flex;gap:var(--space-3);flex-wrap:wrap;margin-top:var(--space-4);}
+.btn{
+  display:inline-block;padding:9px 20px;border-radius:999px;font-size:14.5px;font-weight:600;
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+.btn:hover{transform:translateY(-2px);text-decoration:none;box-shadow:var(--shadow-m);}
+.btn-gold{background:var(--gold);color:#1a1207;}
+.btn-ghost{background:transparent;color:#e8eef8;border:1px solid rgba(232,238,248,.5);}
+.btn-ghost:hover{background:rgba(232,238,248,.12);}
+.hero-stats{display:flex;gap:var(--space-5);margin-top:var(--space-5);flex-wrap:wrap;font-size:13px;color:#9fb0c8;}
+.hero-stats b{display:block;font-size:22px;color:#f0c469;line-height:1.3;}
+.hero-art{position:relative;min-height:280px;}
+.hero-art svg{width:100%;height:auto;display:block;}
+.hero-fade{position:absolute;inset:0;background:radial-gradient(circle at 70% 30%,rgba(240,196,105,.16),transparent 62%);pointer-events:none;}
+
+/* 通用板块 */
+.section{padding:var(--space-7) 0;}
+.section + .section{border-top:1px solid var(--line);}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:var(--space-4);margin-bottom:var(--space-5);flex-wrap:wrap;}
+.sec-head h2{font-size:var(--fs-h2);}
+.sec-head h2::before{content:"";display:inline-block;width:6px;height:18px;background:var(--gold);border-radius:2px;margin-right:10px;vertical-align:-2px;}
+.sec-note{font-size:var(--fs-small);color:var(--muted);max-width:52ch;line-height:1.7;}
+
+/* 三栏门户 */
+.layout{display:grid;grid-template-columns:minmax(0,2.2fr) minmax(0,1fr);gap:var(--space-5);align-items:start;}
+.side{position:sticky;top:calc(var(--anchor-offset) + 12px);display:grid;gap:var(--space-4);}
+.side-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-m);padding:var(--space-4);box-shadow:var(--shadow-s);}
+.side-card h3{font-size:15px;margin-bottom:var(--space-3);padding-bottom:var(--space-2);border-bottom:1px dashed var(--line-strong);}
+.side-list{list-style:none;padding:0;margin:0;font-size:13.5px;}
+.side-list li{margin-bottom:9px;}
+.side-list a{display:block;color:var(--ink-2);line-height:1.55;}
+.side-list a:hover{color:var(--blue);}
+.side-list .meta{display:block;font-size:12px;color:var(--muted);margin-top:1px;}
+.side-list li.active a{color:var(--red);font-weight:600;position:relative;padding-left:12px;}
+.side-list li.active a::before{content:"";position:absolute;left:0;top:7px;width:5px;height:5px;border-radius:50%;background:var(--red);}
+
+/* 卡片网格 */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:var(--space-4);}
+.card{
+  background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-m);
+  overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow-s);
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-m);}
+.card figure{margin:0;aspect-ratio:16/9;overflow:hidden;background:var(--line);}
+.card img{width:100%;height:100%;object-fit:cover;}
+.card-body{padding:var(--space-3) var(--space-4) var(--space-4);display:flex;flex-direction:column;gap:6px;flex:1;}
+.card-body h3{font-size:15.5px;}
+.card-body p{font-size:13.5px;color:var(--ink-2);margin:0;line-height:1.7;}
+.chip{
+  display:inline-block;font-size:11.5px;padding:1px 9px;border-radius:999px;background:var(--gold-soft);
+  color:#7a5a15;align-self:flex-start;letter-spacing:.03em;
+}
+.chip.blue{background:var(--blue-soft);color:#1f4661;}
+.chip.green{background:var(--green-soft);color:#2d5239;}
+.chip.red{background:var(--red-soft);color:#8a2b1f;}
+
+/* 紧凑列表 */
+.list-compact{list-style:none;margin:0;padding:0;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden;box-shadow:var(--shadow-s);}
+.list-compact li{display:grid;grid-template-columns:78px 1fr auto;gap:var(--space-3);padding:11px var(--space-4);border-bottom:1px solid var(--line);align-items:baseline;font-size:14px;}
+.list-compact li:last-child{border-bottom:0;}
+.list-compact .date{font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums;}
+.list-compact .title a{color:var(--ink);font-weight:600;}
+.list-compact .tag{font-size:11.5px;color:var(--blue);background:var(--blue-soft);padding:1px 8px;border-radius:999px;white-space:nowrap;}
+
+/* 分类索引 */
+.tag-index{display:flex;flex-wrap:wrap;gap:10px;}
+.tag-index a{
+  display:inline-flex;align-items:center;gap:7px;padding:7px 15px;border-radius:999px;
+  background:var(--paper);border:1px solid var(--line-strong);color:var(--ink-2);font-size:14px;
+  transition:border-color .15s ease,color .15s ease,transform .15s ease;
+}
+.tag-index a:hover{border-color:var(--gold);color:#7a5a15;text-decoration:none;transform:translateY(-2px);}
+.tag-index a span{font-size:11.5px;color:var(--muted);}
+
+/* 深度解析 */
+.depth{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-l);padding:var(--space-5) var(--space-5) var(--space-4);box-shadow:var(--shadow-s);}
+.depth h2{font-size:var(--fs-h2);margin-bottom:var(--space-2);}
+.depth h3{font-size:var(--fs-h3);margin:var(--space-5) 0 var(--space-2);padding-left:12px;border-left:4px solid var(--gold);}
+.depth p{color:var(--ink-2);}
+.depth .lede{font-size:16px;color:var(--ink);}
+.pullquote{
+  margin:var(--space-4) 0;padding:var(--space-4) var(--space-5);background:var(--gold-soft);
+  border-radius:var(--radius-m);border-left:4px solid var(--gold);font-size:15.5px;color:#5c4413;line-height:1.85;
+}
+.compare{width:100%;border-collapse:collapse;font-size:13.8px;margin:var(--space-3) 0 var(--space-4);}
+.compare caption{caption-side:top;text-align:left;font-size:12.5px;color:var(--muted);padding-bottom:6px;}
+.compare th,.compare td{border:1px solid var(--line-strong);padding:8px 11px;text-align:left;vertical-align:top;}
+.compare th{background:#f1f3f8;font-weight:600;white-space:nowrap;}
+.compare td.num{font-variant-numeric:tabular-nums;}
+.verdict{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:var(--space-3);margin:var(--space-3) 0;}
+.verdict div{background:#fbf8f1;border:1px solid #ecdfc4;border-radius:var(--radius-s);padding:var(--space-3);font-size:13.5px;line-height:1.7;}
+.verdict b{display:block;color:#7a5a15;margin-bottom:3px;font-size:12.5px;letter-spacing:.05em;}
+.factlabel{display:inline-block;font-size:11px;padding:0 7px;border-radius:3px;margin-right:6px;vertical-align:1px;font-weight:600;letter-spacing:.04em;}
+.factlabel.f{background:var(--blue-soft);color:#1f4661;}
+.factlabel.r{background:var(--gold-soft);color:#7a5a15;}
+.factlabel.t{background:var(--green-soft);color:#2d5239;}
+.factlabel.s{background:var(--red-soft);color:#8a2b1f;}
+
+/* 步骤 */
+.steps{counter-reset:st;display:grid;gap:var(--space-3);}
+.step{display:grid;grid-template-columns:38px 1fr;gap:var(--space-3);background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-m);padding:var(--space-4);box-shadow:var(--shadow-s);}
+.step::before{
+  counter-increment:st;content:counter(st);display:grid;place-items:center;
+  width:32px;height:32px;border-radius:50%;background:var(--ink);color:#f0c469;font-weight:700;font-size:14px;
+}
+.step h3{font-size:15px;margin-bottom:4px;}
+.step p{margin:0;font-size:13.8px;color:var(--ink-2);}
+
+/* FAQ */
+.faq details{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-m);margin-bottom:10px;box-shadow:var(--shadow-s);}
+.faq summary{cursor:pointer;padding:var(--space-3) var(--space-4);font-weight:600;font-size:15px;list-style:none;position:relative;padding-right:40px;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:19px;color:var(--gold);font-weight:400;}
+.faq details[open] summary::after{content:"−";}
+.faq summary:focus-visible{outline:2px solid var(--blue);outline-offset:-2px;border-radius:var(--radius-m);}
+.faq .ans{padding:0 var(--space-4) var(--space-4);font-size:14px;color:var(--ink-2);border-top:1px dashed var(--line);margin-top:0;padding-top:var(--space-3);}
+
+/* 评论 */
+.comments{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:var(--space-4);}
+.comment{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-m);padding:var(--space-4);box-shadow:var(--shadow-s);display:flex;flex-direction:column;gap:8px;}
+.comment p{margin:0;font-size:14px;line-height:1.8;color:var(--ink-2);}
+.comment footer{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--muted);border-top:1px dashed var(--line);padding-top:8px;flex-wrap:wrap;gap:4px;}
+.comment .who{font-weight:600;color:var(--ink);}
+.comment .ref{font-size:11.5px;background:var(--blue-soft);color:#1f4661;border-radius:4px;padding:0 6px;}
+
+/* 时间线 */
+.timeline{list-style:none;margin:0;padding:0 0 0 22px;border-left:2px solid var(--line-strong);}
+.timeline li{position:relative;margin-bottom:var(--space-4);font-size:14px;color:var(--ink-2);}
+.timeline li::before{content:"";position:absolute;left:-29px;top:8px;width:10px;height:10px;border-radius:50%;background:var(--gold);border:2px solid var(--bg);}
+.timeline .t{display:block;font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums;margin-bottom:2px;}
+.timeline b{color:var(--ink);}
+
+/* 对照面板 */
+.panel-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4);}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-m);padding:var(--space-4);box-shadow:var(--shadow-s);}
+.panel h3{font-size:15px;margin-bottom:var(--space-2);display:flex;align-items:center;gap:8px;}
+.panel h3 i{width:9px;height:9px;border-radius:50%;flex:none;display:inline-block;}
+.panel.a h3 i{background:var(--blue);}
+.panel.b h3 i{background:var(--red);}
+.panel ul{margin:0;font-size:13.8px;color:var(--ink-2);}
+
+/* 引语卡 */
+.quote-card{
+  background:linear-gradient(135deg,#1c2433,#2c3b52);color:#e6ecf5;border-radius:var(--radius-l);
+  padding:var(--space-5);position:relative;overflow:hidden;
+}
+.quote-card::before{content:"“";position:absolute;font-size:120px;line-height:1;color:rgba(240,196,105,.22);top:-10px;left:14px;font-family:Georgia,serif;}
+.quote-card p{position:relative;z-index:1;font-size:15.5px;line-height:1.9;color:#dfe7f2;margin-left:34px;}
+.quote-card footer{margin-left:34px;font-size:12.5px;color:#9fb0c8;margin-top:var(--space-2);}
+
+/* 相关推荐 */
+.reco{display:flex;flex-wrap:wrap;gap:10px;}
+.reco a{
+  font-size:13.5px;padding:6px 14px;border-radius:var(--radius-s);background:var(--paper);
+  border:1px solid var(--line-strong);color:var(--ink-2);
+}
+.reco a::before{content:"#";color:var(--gold);margin-right:3px;}
+.reco a:hover{border-color:var(--gold);text-decoration:none;color:#7a5a15;}
+
+/* 榜单 */
+.rank{list-style:none;padding:0;margin:0;display:grid;gap:8px;}
+.rank li{display:grid;grid-template-columns:30px 1fr auto;gap:var(--space-3);align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-s);padding:9px var(--space-3);font-size:14px;}
+.rank .n{font-weight:700;color:var(--gold);font-variant-numeric:tabular-nums;text-align:center;}
+.rank .v{font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums;}
+
+/* 页尾 */
+.site-foot{background:#161d2a;color:#b7c1d2;padding:var(--space-7) 0 var(--space-5);margin-top:var(--space-6);font-size:13.5px;}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:var(--space-5);}
+.foot-brand .brand-text{color:#fff;}
+.foot-brand .brand-text small{color:#8d9ab0;}
+.foot-brand p{margin-top:var(--space-3);line-height:1.8;color:#93a0b5;max-width:30ch;}
+.foot-col h4{font-size:13px;color:#e6ecf5;letter-spacing:.08em;margin-bottom:var(--space-3);}
+.foot-col ul{list-style:none;padding:0;margin:0;}
+.foot-col li{margin-bottom:7px;}
+.foot-col a{color:#a9b5c8;}
+.foot-col a:hover{color:#f0c469;}
+.foot-bottom{border-top:1px solid #2c3648;margin-top:var(--space-5);padding-top:var(--space-4);display:flex;justify-content:space-between;gap:var(--space-3);flex-wrap:wrap;color:#7f8ca1;font-size:12.5px;line-height:1.7;}
+
+/* 回到顶部 */
+.to-top{
+  position:fixed;right:18px;bottom:22px;width:44px;height:44px;border-radius:50%;
+  border:1px solid var(--line-strong);background:#fff;color:var(--ink);cursor:pointer;
+  box-shadow:var(--shadow-m);display:grid;place-items:center;font-size:17px;
+  opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .2s ease,transform .2s ease,visibility .2s;
+  z-index:120;
+}
+.to-top.show{opacity:1;visibility:visible;transform:none;}
+.to-top:focus-visible{outline:2px solid var(--blue);outline-offset:2px;}
+
+/* 响应式 */
+@media (max-width:900px){
+  .hero-inner{grid-template-columns:1fr;}
+  .hero-art{order:-1;min-height:0;max-width:360px;}
+  .layout{grid-template-columns:1fr;}
+  .side{position:static;order:2;}
+  .foot-grid{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:640px){
+  :root{--anchor-offset:150px;--space-7:36px;}
+  .head-inner{gap:10px;}
+  .head-search input{width:120px;}
+  .nav-toggle{display:inline-block;}
+  .main-nav{display:none;flex-basis:100%;order:5;margin-left:0;border-top:1px solid var(--line);padding-top:8px;}
+  .main-nav.open{display:grid;grid-template-columns:1fr 1fr;}
+  .main-nav a{padding:8px 10px;font-size:13.5px;}
+  .head-search{margin-left:auto;}
+  .list-compact li{grid-template-columns:1fr;gap:2px;}
+  .list-compact .tag{justify-self:start;}
+  .panel-grid{grid-template-columns:1fr;}
+  .foot-grid{grid-template-columns:1fr;}
+  .hero-stats{gap:var(--space-4);}
+  .to-top{bottom:14px;right:12px;width:40px;height:40px;}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  .card:hover,.tag-index a:hover,.btn:hover{transform:none;}
+  .to-top{transition:none;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+
+<div class="sticky-stack">
+  <div class="announce" role="status">
+    <span class="dot" aria-hidden="true"></span>
+    <span><strong>曹长卿joker女博士</strong> ｜ 11月8日更新：曹长卿西垒壁独白考据补录、二创“跨书配对”时间线校正、读者评论第 4 组换新。</span>
+  </div>
+  <header class="site-head">
+    <div class="wrap head-inner">
+      <a class="brand" href="/#top" aria-label="曹长卿joker女博士 首页">
+        <svg class="brand-mark" viewBox="0 0 64 64" role="img" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#1c2433"/>
+          <path d="M16 45V20l16 13 16-13v25" fill="none" stroke="#e8b04b" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+          <circle cx="32" cy="50" r="3.4" fill="#c8503c"/>
+        </svg>
+        <span class="brand-text">曹长卿joker女博士<small>角色关系 / 二创考据</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mainNav">频道菜单</button>
+      <nav class="main-nav" id="mainNav" aria-label="主题频道导航">
+        <a href="/#overview">组合概览</a>
+        <a href="/#featured">精选桥段</a>
+        <a href="/#updates">更新记录</a>
+        <a href="/#channels">分类入口</a>
+        <a href="/#depth">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见疑问</a>
+        <a href="/#reviews">读者评论</a>
+      </nav>
+      <form class="head-search" role="search" id="searchForm">
+        <label for="q" class="skip">站内搜索</label>
+        <input id="q" name="q" type="search" placeholder="搜条目、桥段、人名" autocomplete="off">
+        <button type="submit">查找</button>
+      </form>
+      <p class="search-feedback" id="searchFeedback" role="alert" aria-live="polite"></p>
+    </div>
+  </header>
+</div>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <span class="hero-tag">跨界角色关系 · 二创整理</span>
+        <h1>曹长卿joker女博士</h1>
+        <p class="hero-lead">把这组跨作品组合拆开看：一位是《雪中悍刀行》里西垒壁前的一品棋士，一位是哥谭那位把混乱当方法论的反派，一位是漫威宇宙里研究伽马能量的核物理学家。三人并置之后，讨论的其实是“才智被什么目标驱动”这件事。页面按角色卡、桥段、争论和时间线排布，方便查证，也方便自己下判断。</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="/#overview">看组合定位</a>
+          <a class="btn btn-ghost" href="/#depth">读深度解析</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>3</b>核心角色</div>
+          <div><b>12</b>梳理条目</div>
+          <div><b>9</b>争论焦点</div>
+          <div><b>11.08</b>数据截止</div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 420 340" role="presentation">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#e8b04b" stop-opacity=".9"/>
+              <stop offset="1" stop-color="#e8b04b" stop-opacity=".15"/>
+            </linearGradient>
+            <linearGradient id="g2" x1="1" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#5b7fa6" stop-opacity=".8"/>
+              <stop offset="1" stop-color="#5b7fa6" stop-opacity=".08"/>
+            </linearGradient>
+          </defs>
+          <rect x="34" y="40" width="230" height="230" rx="18" fill="url(#g1)" opacity=".28" transform="rotate(-6 149 155)"/>
+          <rect x="150" y="66" width="230" height="230" rx="18" fill="url(#g2)" opacity=".3" transform="rotate(6 265 181)"/>
+          <circle cx="210" cy="170" r="86" fill="none" stroke="#e8b04b" stroke-width="1.6" stroke-dasharray="5 7" opacity=".8"/>
+          <circle cx="210" cy="170" r="58" fill="none" stroke="#8fa9c6" stroke-width="1.4" opacity=".7"/>
+          <path d="M150 214 L210 118 L270 214 Z" fill="none" stroke="#f0c469" stroke-width="2.2" stroke-linejoin="round" opacity=".9"/>
+          <circle cx="210" cy="170" r="7" fill="#c8503c"/>
+          <circle cx="150" cy="214" r="4.5" fill="#e8eef8"/>
+          <circle cx="270" cy="214" r="4.5" fill="#e8eef8"/>
+          <circle cx="210" cy="118" r="4.5" fill="#e8b04b"/>
+          <path d="M64 296 H356" stroke="#43536d" stroke-width="1.4"/>
+          <path d="M92 284 h34 M292 288 h44" stroke="#43536d" stroke-width="1.4"/>
+        </svg>
+        <span class="hero-fade"></span>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="layout">
+      <div class="main-col">
+
+        <!-- 组合概览 -->
+        <section class="section" id="overview">
+          <div class="sec-head">
+            <h2>组合概览：三个人物各自的关键坐标</h2>
+            <p class="sec-note">先分开认人。三人来自三套设定体系，年代、规则、能力上限都不同，比较时得先对齐范围。</p>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <figure><img src="https://picsum.photos/seed/caochangqing-chess/640/360" width="640" height="360" loading="lazy" alt="棋盘与半卷兵书，象征曹长卿的西垒壁与棋局设定"></figure>
+              <div class="card-body">
+                <span class="chip">雪中 · 西楚</span>
+                <h3>曹长卿：一品棋士的复国执念</h3>
+                <p>西楚旧臣，大官子，棋力冠绝离阳。原著里他一生围绕“复国”二字，最后在西垒壁单骑赴死。讨论他，绕不开“明知不可为而为之”这一步。</p>
+              </div>
+            </article>
+            <article class="card">
+              <figure><img src="https://picsum.photos/seed/joker-gotham-rain/640/360" width="640" height="360" loading="lazy" alt="雨夜霓虹下的都市立面，对应哥谭的反派叙事气质"></figure>
+              <div class="card-body">
+                <span class="chip blue">DC · 哥谭</span>
+                <h3>Joker：把规则当笑话的对手</h3>
+                <p>首次登场于1940年《蝙蝠侠》第1期，身份说法始终存在多个版本。他测试的不是战力，而是秩序本身能撑住多少压力。</p>
+              </div>
+            </article>
+            <article class="card">
+              <figure><img src="https://picsum.photos/seed/gsm-doctor-lab/640/360" width="640" height="360" loading="lazy" alt="实验室仪器与手写公式，呼应女博士的伽马能量研究背景"></figure>
+              <div class="card-body">
+                <span class="chip green">漫威 · 伽马</span>
+                <h3>女博士：伽马能量与身份困局</h3>
+                <p>同人语境里的“女博士”多指向漫威的贝蒂·罗斯或同类科研型角色，主线是核物理与伽马辐射。她的困境在实验室里，不在街头。</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- 精选内容推荐 -->
+        <section class="section" id="featured">
+          <div class="sec-head">
+            <h2>精选桥段：值得对照读的四段</h2>
+            <p class="sec-note">选入标准只有一个：这四段能被拿来做三方对照，而不是单纯好看。</p>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <figure><img src="https://picsum.photos/seed/xileibi-sunset/640/360" width="640" height="360" loading="lazy" alt="西垒壁黄昏城墙剪影，对应曹长卿单骑赴死场景"></figure>
+              <div class="card-body">
+                <span class="chip">原著桥段</span>
+                <h3>西垒壁独白：棋士的最后一手</h3>
+                <p>曹长卿在城下单人赴阵，把“大官子”这层身份落成一次公开落子。原著读者争论点是：这算认输，还是另一种兑现。</p>
+              </div>
+            </article>
+            <article class="card">
+              <figure><img src="https://picsum.photos/seed/ferry-boat-night/640/360" width="640" height="360" loading="lazy" alt="夜航渡船与两侧灯火，隐喻Joker的渡轮困局"></figure>
+              <div class="card-body">
+                <span class="chip blue">电影桥段</span>
+                <h3>渡轮实验：把选择交给普通人</h3>
+                <p>《黑暗骑士》里两艘渡船互相持有引爆器。Joker 把裁决权交给普通人，结果两船都没按。这一幕常被拿来讨论“混乱是否真能瓦解秩序”。</p>
+              </div>
+            </article>
+            <article class="card">
+              <figure><img src="https://picsum.photos/seed/gamma-blue-glow/640/360" width="640" height="360" loading="lazy" alt="蓝色辐射光晕中的试管阵列，对应伽马实验事故"></figure>
+              <div class="card-body">
+                <span class="chip green">漫画桥段</span>
+                <h3>伽马事故：研究者的第一次代价</h3>
+                <p>贝蒂·罗斯在伽马相关实验事故后长期承担后果。和另两人不同，她的“失控”来自实验室内部，是可复现的技术风险。</p>
+              </div>
+            </article>
+            <article class="card">
+              <figure><img src="https://picsum.photos/seed/three-chairs-desk/640/360" width="640" height="360" loading="lazy" alt="三把椅子围着一张茶几，对应三方并置的跨作品讨论"></figure>
+              <div class="card-body">
+                <span class="chip red">组合向</span>
+                <h3>三人同桌：动机对齐表</h3>
+                <p>把三人的核心驱动力列成一行：复国、混乱、求知。二创最常写的就是三者在同一张桌上互相拆台，因为谁都说服不了谁。</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- 最新更新 -->
+        <section class="section" id="updates">
+          <div class="sec-head">
+            <h2>最新更新：本周补录与修订</h2>
+            <p class="sec-note">按发布日排列，同一天内按板块顺序。修改类条目注明改了什么。</p>
+          </div>
+          <ul class="list-compact">
+            <li><span class="date">11-08</span><span class="title"><a href="/#depth">西垒壁独白考据补录：补上原著章节位置与两版说法差异</a></span><span class="tag">考据</span></li>
+            <li><span class="date">11-07</span><span class="title"><a href="/#timeline">跨书配对时间线校正，删去 2019 年一条无法溯源的旧帖引用</a></span><span class="tag">修订</span></li>
+            <li><span class="date">11-06</span><span class="title"><a href="/#reviews">读者评论第 4 组换新，加入一条对“女博士被简化”的批评</a></span><span class="tag">互动</span></li>
+            <li><span class="date">11-05</span><span class="title"><a href="/#channels">分类入口新增“哥谭秩序实验”标签，归入 Joker 相关条目</a></span><span class="tag">分类</span></li>
+            <li><span class="date">11-03</span><span class="title"><a href="/#guide">体验指南补“如何区分原著与二创设定”三步法</a></span><span class="tag">指南</span></li>
+            <li><span class="date">10-31</span><span class="title"><a href="/#rank">争议热度榜更新，渡轮实验升到第 2 位</a></span><span class="tag">榜单</span></li>
+          </ul>
+        </section>
+
+        <!-- 分类入口 -->
+        <section class="section" id="channels">
+          <div class="sec-head">
+            <h2>分类入口：按问题找条目</h2>
+            <p class="sec-note">十二个入口，按“想知道什么”划分，不按作品划分。</p>
+          </div>
+          <div class="tag-index">
+            <a href="/#overview">曹长卿西垒壁 <span>6</span></a>
+            <a href="/#overview">大官子棋局解读 <span>4</span></a>
+            <a href="/#featured">Joker渡轮实验 <span>5</span></a>
+            <a href="/#depth">哥谭秩序实验 <span>3</span></a>
+            <a href="/#overview">女博士伽马研究 <span>4</span></a>
+            <a href="/#featured">伽马事故时间线 <span>3</span></a>
+            <a href="/#depth">才智与动机对照 <span>7</span></a>
+            <a href="/#guide">原著与二创区分 <span>5</span></a>
+            <a href="/#faq">三人能否对话 <span>6</span></a>
+            <a href="/#timeline">跨书配对简史 <span>4</span></a>
+            <a href="/#rank">争议热度榜 <span>9</span></a>
+            <a href="/#reviews">读者评论精选 <span>12</span></a>
+          </div>
+        </section>
+
+        <!-- 深度解析 -->
+        <section class="section" id="depth">
+          <div class="depth">
+            <h2>深度解析：才智被什么驱动，决定它落在哪一边</h2>
+            <p class="lede">把三人放进同一张表里，最能说明问题的不是谁更聪明，而是他们的智力用来服务什么。以下判断都可以被反驳，反驳时请对着时间、版本或原文措辞来。</p>
+
+            <h3>一、三人的“目标函数”根本不同，比较聪明程度没有意义</h3>
+            <p><span class="factlabel f">事实</span>曹长卿的目标在原著里写得极明确：西楚复国。他是大官子，棋力在离阳名列前茅，但所有落子最终指向一个已经亡了的国。Joker 的目标更接近“证明”——证明规则可以被压垮，1940 年首次登场以来，各版本对他的动机解释不一，可“测试秩序”这条线一直在。女博士的目标则是研究本身，伽马能量、辐射防护、实验可复现性，都是实验室语言。</p>
+            <p>三套目标没有公共度量。硬要比“谁更聪明”，等于拿棋谱和犯罪现场和实验记录本互相打分。更可核对的做法是问：<strong>如果目标被抽走，这个人的行为还成立吗？</strong>曹长卿会立刻停下，Joker 会失去对手，女博士仍会继续做实验。这一条能直接从设定推出来，也能被具体桥段检验。</p>
+
+            <h3>二、西垒壁那一手，是兑现而非投降</h3>
+            <p><span class="factlabel t">转述</span>读者里流传两种说法：一种认为曹长卿独赴西垒壁等于认输，一种认为这是把“大官子”身份彻底走完。查原著叙述，他此行的姿态是主动前往，而非被押送。棋士的胜负观里，“落完最后一子”本身就是交代。</p>
+            <p>所以更稳的判断是：西垒壁是兑现，不是投降。理由有三条可以核对——其一，他保留了行动自主；其二，他公开身份而非隐去；其三，他没有交换任何政治条件。三点都能在原文里找到对应段落。<span class="factlabel s">推测</span>至于他内心是否后悔，原著没有给出直接心理描写，任何“其实他后悔了”的说法都属于补写。</p>
+            <div class="pullquote">“一个人把最后一手落在明处，旁人就没法替他说成是失手。”——这是关于西垒壁最常被引用的一句评论，但它描述的是姿态，不是心境。</div>
+
+            <h3>三、渡轮实验的关键在“没按”，不在“差点按”</h3>
+            <p><span class="factlabel f">事实</span>《黑暗骑士》里两艘渡船各持对方引爆器，最终双方都没按下。Joker 的预设是普通人会在恐惧中互相残杀，实验结果是预设落空。</p>
+            <p>这里的可核对中段是一次失败预测：他把“文明社会的规则”当作薄壳，认为压力足够大就会碎。结果是两船都选择不按。<span class="factlabel r">回应</span>常见反驳是“那只是电影安排，现实未必”。这个反驳成立，但它动摇的是推广性，不是这次实验本身的结论。区分这两层，讨论才不至于原地打转。</p>
+
+            <h3>四、女博士在组合里常被简化为“理性担当”，这是二创的偷懒</h3>
+            <p><span class="factlabel t">转述</span>不少二创把女博士写成负责讲道理的第三人，作用是给两个“疯子”做对照组。问题在于，这样写会抹掉她自己的失控经历。</p>
+            <p>伽马相关事故里，研究者本人也可能是受害者，也可能承担连带责任。把她固定成“冷静解释者”，等于把一条可争的伦理线剪掉了。更完整的写法应该允许她发火、判断失误、或者拒绝配合。<span class="factlabel s">推测</span>至于她在漫威主宇宙与平行宇宙版本的差异，需要逐期核对，这里不合并处理。</p>
+
+            <table class="compare">
+              <caption>三人动机与可核对行为对照（数据截至 2026-11-08）</caption>
+              <thead>
+                <tr><th>维度</th><th>曹长卿</th><th>Joker</th><th>女博士</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>核心驱动</td><td>复国</td><td>测试秩序</td><td>完成研究</td></tr>
+                <tr><td>主要场域</td><td>庙堂与战场</td><td>城市街头</td><td>实验室</td></tr>
+                <tr><td>失控来源</td><td>外部时局</td><td>主动制造</td><td>技术风险</td></tr>
+                <tr><td class="num">关键年份</td><td class="num">原著主线</td><td class="num">1940 首登场</td><td class="num">伽马连载期</td></tr>
+                <tr><td>最常被误读</td><td>投降说</td><td>纯疯说</td><td>理性担当说</td></tr>
+              </tbody>
+            </table>
+
+            <h3>五、三方并置的真正价值：给“聪明”加上用途限定</h3>
+            <p>把三人摆在一次讨论里，最容易收获的结论不是谁更强，而是一句可复用的判断：<strong>才智本身不构成道德评价，用途才构成。</strong>曹长卿的才智服务于一个已经消失的政权，Joker 的才智服务于拆解，女博士的才智服务于知识生产。三种用途面对的风险不同，需要追问的问题也不同。</p>
+            <div class="verdict">
+              <div><b>可核对</b>西垒壁行动自主、渡轮未按引爆器、伽马实验可复现风险，三条都能找到出处。</div>
+              <div><b>可反驳</b>“西垒壁是投降”“Joker 纯疯”“女博士只是理性担当”，均有反例可举。</div>
+              <div><b>暂不判断</b>三人心境细节与平行宇宙版本差异，资料不足，保留空白。</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 体验指南 -->
+        <section class="section" id="guide">
+          <div class="sec-head">
+            <h2>体验指南：四步看懂一组跨作品组合</h2>
+            <p class="sec-note">首次接触这类组合，按顺序做四件事，比直接读评论省时间。</p>
+          </div>
+          <div class="steps">
+            <div class="step">
+              <div>
+                <h3>先确认角色原属作品与版本</h3>
+                <p>曹长卿来自《雪中悍刀行》原著，Joker 有漫画、电影、动画多条线，女博士在不同宇宙设定不同。先锁定版本，再谈剧情，否则各说各话。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div>
+                <h3>把“原著事实”和“二创设定”分开放</h3>
+                <p>看到一段描写，先问：这句话在原著或漫画里能查到吗？查不到就归入二创。两类内容可以并读，但不能混着当证据。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div>
+                <h3>找到三人的动机锚点各一句</h3>
+                <p>复国、测试秩序、完成研究。各写一句，对照桥段，看行为是否对得上。对不上的地方，往往就是争议所在。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div>
+                <h3>最后再读评论，带着问题读</h3>
+                <p>评论里“他就是疯子”“她只是工具人”这类话，先记下，再回到具体条目核对。能落到桥段上的才留，落不上的当情绪看。</p>
+              </div>
+            </div>
+          </div>
+          <div class="panel-grid" style="margin-top:var(--space-5)">
+            <div class="panel a">
+              <h3><i></i>读得下去的做法</h3>
+              <ul>
+                <li>按时间线读，先看登场，再看关键选择。</li>
+                <li>每段只问一个问题，避免一次比较太多维度。</li>
+                <li>遇到矛盾说法，列出两个日期再判断。</li>
+              </ul>
+            </div>
+            <div class="panel b">
+              <h3><i></i>容易读岔的做法</h3>
+              <ul>
+                <li>把不同宇宙的设定当成同一套规则。</li>
+                <li>用“智商排名”替代动机讨论。</li>
+                <li>把二创金句当原著原文引用。</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 时间线 -->
+        <section class="section" id="timeline">
+          <div class="sec-head">
+            <h2>跨书配对简史：讨论是怎么聚起来的</h2>
+            <p class="sec-note">只收录能追到具体平台与日期的节点，民间口传但无出处的旧帖不列入。</p>
+          </div>
+          <ol class="timeline">
+            <li><span class="t">2016 年前后</span><b>单角色讨论为主</b>。曹长卿的西垒壁与 Joker 的渡轮实验各自有独立长帖，尚未并置。</li>
+            <li><span class="t">2019 年</span><b>“智者与疯子”对照帖出现</b>。以动机对比为切口，把两人放进同一张表，跟帖多集中在“谁更危险”。</li>
+            <li><span class="t">2021 年</span><b>女博士被加入讨论</b>。起因是伽马研究伦理话题升温，有人补上“实验室里的失控”这一维度。</li>
+            <li><span class="t">2023 年</span><b>三人同桌梗图流行</b>。二创开始以对话体呈现，重心从比较转向互相拆台。</li>
+            <li><span class="t">2025 年</span><b>考据派介入</b>。开始区分原著、电影、漫画各版本，争议从“谁强”转向“版本对不上”。</li>
+            <li><span class="t">2026 年 11 月</span><b>条目录入与校正</b>。本页 11 月 8 日补录西垒壁独白考据，并删去一条无法溯源的旧帖引用。</li>
+          </ol>
+        </section>
+
+        <!-- 引语卡 -->
+        <section class="section" id="voices">
+          <div class="quote-card">
+            <p>写这三个人最难受的地方是：他们都不会为了剧情好看而改变主意。曹长卿不会因为读者心疼就掉头，Joker 不会因为计划被看穿就收手，女博士也不会因为结果危险就停止追问。</p>
+            <footer>—— 摘自读者长评《三个不肯改主意的人》，2026-11-02</footer>
+          </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section faq" id="faq">
+          <div class="sec-head">
+            <h2>常见疑问：把问题拆小再回答</h2>
+            <p class="sec-note">答案只针对问题本身，不延伸成人物总评。</p>
+          </div>
+          <details>
+            <summary>曹长卿joker女博士是同一部作品里的角色吗？</summary>
+            <div class="ans">不是。三人分别来自《雪中悍刀行》、DC 蝙蝠侠系列、漫威漫画。把他们并置属于跨作品讨论，不涉及任何官方联动设定。讨论时先标明各自版本，能少掉一半误会。</div>
+          </details>
+          <details>
+            <summary>西垒壁那一战，曹长卿到底有没有可能赢？</summary>
+            <div class="ans">原著叙述里，他面对的是整体局势而非单一对手。孤身赴阵的前提是复国大势已去，所以“赢”这个判断要看怎么定义。若指单场交手，他有能力；若指扭转局面，条件不具备。两件事不要混在一起谈。</div>
+          </details>
+          <details>
+            <summary>Joker 的渡轮实验说明了什么？</summary>
+            <div class="ans">实验设计是把选择权交给普通人，观察恐惧是否足以让人互相伤害。结果两船都没按，说明这一次预设落空。它能说明的是这个场景里的选择，不能直接推广为普遍人性结论。</div>
+          </details>
+          <details>
+            <summary>女博士在组合讨论里为什么总被写成冷静派？</summary>
+            <div class="ans">因为二创需要一个讲道理的第三人，方便推动对话。但把她固定在“冷静”上会忽略伽马事故里的风险承担。写成会犹豫、会判断失误的研究者，反而更贴近可查材料。</div>
+          </details>
+          <details>
+            <summary>三人的才智可以排个名次吗？</summary>
+            <div class="ans">排不出来，也不建议排。三人的能力范围不重叠：棋力、犯罪策划、核物理研究，各自有成套评价标准。硬要排名，只能得到一个人为设定的权重表，参考价值有限。</div>
+          </details>
+          <details>
+            <summary>二创里写三人对话，最容易出什么问题？</summary>
+            <div class="ans">最常见的是让三个人都变成说金句的机器。第二常见是把女博士当作解释设定的旁白。要让对话成立，得给每个人一个当下要争取的具体东西，而不是让他们轮流发表观点。</div>
+          </details>
+        </section>
+
+        <!-- 读者评论 -->
+        <section class="section" id="reviews">
+          <div class="sec-head">
+            <h2>读者评论：赞同、挑刺和一些吐槽</h2>
+            <p class="sec-note">评论保留原语气，包括不认同页面判断的。标注了指向的具体条目。</p>
+          </div>
+          <div class="comments">
+            <article class="comment">
+              <p>西垒壁那段我也倾向“兑现”这个说法，但他保留行动自主这一点在哪一章能查到？我想核一下原文。</p>
+              <footer><span class="who">@夜读第二遍</span><span class="ref">指向：西垒壁独白</span></footer>
+            </article>
+            <article class="comment">
+              <p>渡轮那两艘船，我一直觉得关键不是“没按”，而是坐船的人里有前科犯。这个细节让“普通人”这个词变得没那么干净。</p>
+              <footer><span class="who">@码头搬砖的</span><span class="ref">指向：渡轮实验</span></footer>
+            </article>
+            <article class="comment">
+              <p>把女博士写成只会讲道理真的省事，但那样她就没戏了。伽马事故里她自己的处境那么复杂，结果被删成一句“请冷静”。</p>
+              <footer><span class="who">@伽马线观察员</span><span class="ref">指向：女博士简述争议</span></footer>
+            </article>
+            <article class="comment">
+              <p>不太同意“比较聪明程度没有意义”这句。限定在特定场景里比较决策质量，还是能比的，只是不能导出总排名。</p>
+              <footer><span class="who">@逻辑课代表</span><span class="ref">指向：深度解析第一节</span></footer>
+            </article>
+            <article class="comment">
+              <p>时间线里 2019 那条对照帖我印象很深，当时跟帖吵了好几百楼，最后也没吵出结果，倒是留下了不少奇怪的梗图。</p>
+              <footer><span class="who">@旧帖考古员</span><span class="ref">指向：跨书配对简史</span></footer>
+            </article>
+            <article class="comment">
+              <p>有一说一，页面把三个人放一起讲，读着还算清楚。但我还是想知道，Joker 在不同电影里的动机差异，能不能单独列个表。</p>
+              <footer><span class="who">@只看电影版</span><span class="ref">指向：分类入口</span></footer>
+            </article>
+            <article class="comment">
+              <p>曹长卿的棋力描述，我记得原著里强调的是“官子”，不是全局布局。这种细微差别在讨论里经常被抹平。</p>
+              <footer><span class="who">@官子爱好者</span><span class="ref">指向：大官子棋局解读</span></footer>
+            </article>
+            <article class="comment">
+              <p>评论里说“三个不肯改主意的人”，我看完觉得有点简化。女博士是会根据实验结果调整方向的，科研本身就是不断修正。</p>
+              <footer><span class="who">@实验记录本</span><span class="ref">指向：引语卡</span></footer>
+            </article>
+          </div>
+        </section>
+
+        <!-- 相关资讯 -->
+        <section class="section" id="news">
+          <div class="sec-head">
+            <h2>相关资讯：本周值得留意的动态</h2>
+            <p class="sec-note">只列条目与出处，不复述标题。</p>
+          </div>
+          <ul class="list-compact">
+            <li><span class="date">11-08</span><span class="title">读者自发整理的伽马角色版本对照表在论坛发布，标注了 6 个分期差异</span><span class="tag">资料</span></li>
+            <li><span class="date">11-07</span><span class="title">西垒壁相关讨论帖重新置顶，起因是有人贴出两版文本对照</span><span class="tag">讨论</span></li>
+            <li><span class="date">11-06</span><span class="title">《黑暗骑士》渡轮桥段的幕后解读视频被重新搬运，评论区转向普通人的选择</span><span class="tag">影像</span></li>
+            <li><span class="date">11-04</span><span class="title">三名角色的同人绘师联合发起“动机卡”画题，要求每张图附一句设定依据</span><span class="tag">二创</span></li>
+            <li><span class="date">11-02</span><span class="title">读者长评《三个不肯改主意的人》发布，三天内被转引 40 余次</span><span class="tag">评论</span></li>
+          </ul>
+        </section>
+
+        <!-- 相关推荐 -->
+        <section class="section" id="reco">
+          <div class="sec-head">
+            <h2>相关推荐：继续往下查的关键词</h2>
+            <p class="sec-note">每个标签对应页面内一个已有条目或外部可查对象。</p>
+          </div>
+          <div class="reco">
+            <a href="/#depth">曹长卿西垒壁独白原文对照</a>
+            <a href="/#featured">Joker渡轮实验两船决策链</a>
+            <a href="/#overview">女博士伽马研究角色版本</a>
+            <a href="/#timeline">跨书配对讨论时间线</a>
+            <a href="/#depth">才智用途限定的三条论据</a>
+            <a href="/#guide">原著与二创区分四步法</a>
+            <a href="/#faq">三人能否同框的设定障碍</a>
+            <a href="/#rank">争议热度榜最新位次</a>
+            <a href="/#reviews">读者评论里的反方意见</a>
+          </div>
+        </section>
+
+        <!-- 榜单 -->
+        <section class="section" id="rank">
+          <div class="sec-head">
+            <h2>争议热度榜：本周讨论最集中的五个点</h2>
+            <p class="sec-note">按本周新增讨论条目数排序，数据截至 11 月 8 日中午。</p>
+          </div>
+          <ol class="rank">
+            <li><span class="n">1</span><span>西垒壁算不算投降</span><span class="v">新增 37 条</span></li>
+            <li><span class="n">2</span><span>渡轮实验能否推广到现实</span><span class="v">新增 31 条</span></li>
+            <li><span class="n">3</span><span>女博士的版本差异如何取舍</span><span class="v">新增 24 条</span></li>
+            <li><span class="n">4</span><span>三人同桌对话的写法边界</span><span class="v">新增 18 条</span></li>
+            <li><span class="n">5</span><span>才智排名的评价标准</span><span class="v">新增 12 条</span></li>
+          </ol>
+        </section>
+
+      </div>
+
+      <!-- 侧栏 -->
+      <aside class="side" aria-label="侧栏导航与快速入口">
+        <div class="side-card">
+          <h3>页内快速导航</h3>
+          <ul class="side-list" id="tocList">
+            <li><a href="/#overview">组合概览<span class="meta">三人身份坐标</span></a></li>
+            <li><a href="/#featured">精选桥段<span class="meta">四段对照素材</span></a></li>
+            <li><a href="/#updates">最新更新<span class="meta">本周补录修订</span></a></li>
+            <li><a href="/#channels">分类入口<span class="meta">十二个问题标签</span></a></li>
+            <li><a href="/#depth">深度解析<span class="meta">五节可核对判断</span></a></li>
+            <li><a href="/#guide">体验指南<span class="meta">四步阅读法</span></a></li>
+            <li><a href="/#timeline">配对简史<span class="meta">六个时间节点</span></a></li>
+            <li><a href="/#faq">常见疑问<span class="meta">六问六答</span></a></li>
+            <li><a href="/#reviews">读者评论<span class="meta">八条原声</span></a></li>
+            <li><a href="/#rank">争议热度<span class="meta">本周前五</span></a></li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <h3>资料来源层</h3>
+          <ul class="side-list">
+            <li>原著叙述层<span class="meta">《雪中悍刀行》文本</span></li>
+            <li>电影叙述层<span class="meta">《黑暗骑士》剧本与成片</span></li>
+            <li>漫画连载层<span class="meta">伽马相关分期</span></li>
+            <li>二创补写层<span class="meta">同人设定与对话体</span></li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <h3>查看提醒</h3>
+          <p style="font-size:13px;color:var(--muted);margin:0;line-height:1.75">页内日期与条目为整理示例，涉及原著原文的建议自行核对纸质版章节位置；不同宇宙版本差异需逐期比对。</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer class="site-foot" id="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <span class="brand-text">曹长卿joker女博士<small>角色关系 / 二创考据</small></span>
+        <p>把三种才智的不同用途拆开看：复国、拆解秩序、推进研究，各有各的代价。</p>
+      </div>
+      <div class="foot-col">
+        <h4>主题栏目</h4>
+        <ul>
+          <li><a href="/#overview">组合概览</a></li>
+          <li><a href="/#featured">精选桥段</a></li>
+          <li><a href="/#depth">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>查证入口</h4>
+        <ul>
+          <li><a href="/#updates">更新记录</a></li>
+          <li><a href="/#timeline">配对简史</a></li>
+          <li><a href="/#rank">争议热度榜</a></li>
+          <li><a href="/#faq">常见疑问</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>互动与其他</h4>
+        <ul>
+          <li><a href="/#reviews">读者评论</a></li>
+          <li><a href="/#channels">分类入口</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#reco">相关推荐</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>页面内角色与桥段信息为整理示例，不构成官方设定；涉及原著、电影与漫画的引述请以正式出版版本为准。</span>
+      <span>内容更新至 2026-11-08 · 对应正文“西垒壁独白考据补录”“配对时间线校正”“评论第 4 组换新”三项修订</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var doc = document;
+  // 移动端菜单
+  var toggle = doc.querySelector('.nav-toggle');
+  var nav = doc.getElementById('mainNav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.textContent = open ? '收起菜单' : '频道菜单';
+    });
+    nav.addEventListener('click', function(e){
+      if (e.target.closest('a') && nav.classList.contains('open') && window.matchMedia('(max-width:640px)').matches) {
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded','false');
+        toggle.textContent = '频道菜单';
+      }
+    });
+  }
+
+  // 吸顶偏移：给锚点跳转留公告条+页头高度
+  function offsetHeight(){
+    var stack = doc.querySelector('.sticky-stack');
+    return stack ? stack.getBoundingClientRect().height : 104;
+  }
+  doc.documentElement.style.setProperty('--anchor-offset', (offsetHeight() + 16) + 'px');
+  window.addEventListener('resize', function(){
+    doc.documentElement.style.setProperty('--anchor-offset', (offsetHeight() + 16) + 'px');
+  });
+
+  // 回到顶部
+  var toTop = doc.getElementById('toTop');
+  if (toTop) {
+    toTop.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+    });
+    var onScroll = function(){
+      if (window.scrollY > 480) { toTop.classList.add('show'); }
+      else { toTop.classList.remove('show'); }
+    };
+    window.addEventListener('scroll', onScroll, {passive:true});
+    onScroll();
+  }
+
+  // 侧栏滚动高亮
+  var tocItems = Array.prototype.slice.call(doc.querySelectorAll('#tocList li'));
+  var sections = tocItems.map(function(li){
+    var a = li.querySelector('a');
+    var id = a.getAttribute('href').replace('/#','');
+    return doc.getElementById(id);
+  }).filter(Boolean);
+  if ('IntersectionObserver' in window && sections.length) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting) {
+          tocItems.forEach(function(li){ li.classList.remove('active'); });
+          var idx = sections.indexOf(en.target);
+          if (idx > -1 && tocItems[idx]) { tocItems[idx].classList.add('active'); }
+        }
+      });
+    }, {rootMargin: '-30% 0px -55% 0px', threshold: 0});
+    sections.forEach(function(s){ io.observe(s); });
+  }
+
+  // 本地搜索
+  var form = doc.getElementById('searchForm');
+  var input = doc.getElementById('q');
+  var feedback = doc.getElementById('searchFeedback');
+  if (form && input && feedback) {
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var val = input.value.trim();
+      if (!val) {
+        feedback.textContent = '请输入要查找的人名、桥段或标签。';
+        return;
+      }
+      var nodes = doc.querySelectorAll('main h2, main h3, main .card, main li, main .tag-index a, main summary');
+      var hit = null;
+      for (var i = 0; i < nodes.length; i++) {
+        var t = nodes[i].textContent || '';
+        if (t.indexOf(val) !== -1) { hit = nodes[i]; break; }
+      }
+      if (hit) {
+        var target = hit.closest('section') || hit;
+        var y = target.getBoundingClientRect().top + window.pageYOffset - offsetHeight() - 16;
+        window.scrollTo({top: y, behavior: 'smooth'});
+        feedback.textContent = '已定位到包含“' + val + '”的条目标题，可在页面内继续向下核对。';
+        // 合并结果再提示
+        var total = 0;
+        for (var j = 0; j < nodes.length; j++) {
+          if ((nodes[j].textContent || '').indexOf(val) !== -1) total++;
+        }
+        feedback.textContent = '共找到 ' + total + ' 处包含“' + val + '”的内容，已跳转到第一处。';
+      } else {
+        feedback.textContent = '没有找到“' + val + '”。可以试试：西垒壁、渡轮、伽马、时间线。';
+      }
+    });
+    input.addEventListener('input', function(){
+      if (feedback.textContent) feedback.textContent = '';
+    });
+  }
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "曹长卿joker女博士 角色关系与二创整理",
+  "inLanguage": "zh-CN",
+  "description": "整理曹长卿、Joker、女博士三位跨作品角色的动机、桥段与争议，附时间线与读者评论。",
+  "dateModified": "2026-11-08"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "zh-CN",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "曹长卿joker女博士是同一部作品里的角色吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不是。三人分别来自《雪中悍刀行》、DC 蝙蝠侠系列、漫威漫画，把他们并置属于跨作品讨论，不涉及官方联动设定。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "西垒壁那一战，曹长卿到底有没有可能赢？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "要看怎么定义赢。单场交手他有能力，扭转整体局面则不具备条件，孤身赴阵的前提是复国大势已去。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Joker 的渡轮实验说明了什么？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "实验把引爆选择交给两艘船的普通人，结果双方都没有按下。它说明的是这一场景里的选择，不能直接推广为普遍人性结论。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "女博士在组合讨论里为什么总被写成冷静派？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "二创需要一个讲道理的第三人推动对话。但固定成冷静解释者会忽略伽马事故里的风险承担，写成会犹豫、会误判的研究者更贴近可查材料。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "三人的才智可以排个名次吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不建议排。棋力、犯罪策划、核物理研究各有评价标准，硬排只能得到一个人为设定的权重表，参考价值有限。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "二创里写三人对话，最容易出什么问题？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "常见问题是让三个人都变成说金句的机器，以及把女博士当作解释设定的旁白。要让对话成立，得给每个人一个当下要争取的具体东西。"
+      }
+    }
+  ]
+}
+</script>
+</body>
+  </html>
